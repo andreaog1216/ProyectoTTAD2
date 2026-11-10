@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+
+.env
+data/* #no sube data al repositorio, todo lo de dentro de data no se sube al repositorio
