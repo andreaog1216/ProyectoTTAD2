@@ -1,0 +1,19 @@
+[project]
+name = "proyecto-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "andreaog1216", email = "andreaog1216@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "numpy>=2.5.4",
+]
+
+[project.scripts]
+proyecto-2 = "proyecto_2:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
